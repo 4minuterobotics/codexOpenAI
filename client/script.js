@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
 
 	//this next section gets made after the sever side code is setup
 	//fetch the data from the server -> get bots response
-	const response = await fetch("http://localhost:5000", {
+	const response = await fetch("https://codex-using-open-ai.onrender.com/", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
